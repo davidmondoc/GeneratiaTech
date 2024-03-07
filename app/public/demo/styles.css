@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navi {
+    background-color: #6195f0;   
+    text-align: justify;
+}
+
+.navi-list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0; 
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+a.navi-list {
+    color: white;
+    display: block;
+    padding: 9px;
+    text-decoration: none;
+}
+
+a.navi-list:hover{
+    opacity: 0.5;
+}
+
+.navi-phone {
+    margin-left: auto;
+    font-size: 1.5rem;
+    padding-right: 0;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    padding: 30px; 
+}
+
+img.footer-img {
+    max-width: 100px;
+}
+
+.two {
+    background-color: lightgrey;
+}
+
+img.c-uri {
+    border: 5px solid grey;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    max-width: 50%;
+    object-fit: cover;
+}
+
+.car-bg .carousel-item div {
+    aspect-ratio: 2/1;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-stwo {
+    background-color: rgb(231, 230, 230);
+}
+
+.team {
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+}
