@@ -45,7 +45,7 @@ a.navi-list:hover{
     max-height: 3em;
 }
 
-footer {
+/* footer {
     background-color: grey;
     text-align: center;
     position:relative;
@@ -55,7 +55,7 @@ footer {
 
 img.footer-img {
     max-width: 100px;
-}
+} */
 
 .two {
     background-color: lightgrey;
@@ -85,6 +85,6 @@ img.c-uri {
     background-position: center;
 }
 
-div.wrapper{
+body.page-template-template-home .wrapper{
     padding: 0;
 }

@@ -39,12 +39,13 @@ get_header(); ?>
 
 				<section class="one container py-5">
 					<div class="row justify-content-center align-items-center">
-						<div class="col-md-10 col-lg-6 text-center">
-							<h1> <?php the_title()?></h1>  
-							<h2><?php the_heading() ?></h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In turpis lorem, feugiat id magna vitae, mattis pretium orci. Quisque rhoncus quis tellus sit amet posuere. Aliquam convallis sed felis sit amet viverra.</p>
-							<button type="submit" class="btn btn-primary">Înscrie-te acum</button>
-							<button type="submit" class="btn btn-outline-secondary">Cere detalii</button>
+						<div class="col-md-10 col-lg-6">
+							<h1 class="text-center"> <?php the_title()?></h1>  
+							<?php the_content()?>
+							<div class="text-center">
+								<button type="submit" class="btn btn-primary">Înscrie-te acum</button>
+								<button type="submit" class="btn btn-outline-secondary">Cere detalii</button>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -53,17 +54,17 @@ get_header(); ?>
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-sm-6 col-md-4">
-								<img class = "c-uri" src="./images/DSC_1402.JPG" alt="">
+								<img class = "c-uri" src="./demo/images/DSC_1402.JPG" alt="">
 								<h4>Performanță</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 							</div>
 							<div class="col-sm-6 col-md-4">
-								<img class="c-uri" src="./images/DSC_1402.JPG" alt="">
+								<img class="c-uri" src="./demo/images/DSC_1402.JPG" alt="">
 								<h4>Siguranță în ziua de mâine</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 							</div>
 							<div class="col-sm-6 col-md-4">
-								<img class="c-uri" src="./images/DSC_1402.JPG" alt="">
+								<img class="c-uri" src="./demo/images/DSC_1402.JPG" alt="">
 								<h4>Dublarea venitului</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 							</div>
